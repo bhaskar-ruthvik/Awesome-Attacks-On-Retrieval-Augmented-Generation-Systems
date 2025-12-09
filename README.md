@@ -16,9 +16,9 @@ _Fig: RAG Pipeline used to Distinguish Types of Attacks_
 - [Vector/Embedding Poisoning](#vectorpoisoning)
   - [Attacks](#vectorattacks)
   - [Defenses](#vectordefenses)
-- Prompt Injection
-  - Attacks
-  - Defenses
+- [Prompt Injection](#promptinjection)
+  - [Attacks](#promptattacks)
+  - [Defenses](#promptdefenses)
 - [Feedback Poisoning](#feedbackpoisoning)
   - [Attacks](#feedbackattacks)
   - [Defenses](#feedbackdefenses)
@@ -53,7 +53,18 @@ _Fig: RAG Pipeline used to Distinguish Types of Attacks_
 - (Poisoning Defense in Knowledge Intensive Domains) On the Vulnerability of Applying Retrieval-Augmented Generation within Knowledge-Intensive Application Domains [[Paper](https://arxiv.org/abs/2409.17275)]
 ---
 
+<a id="promptinjection"></a>
 ## Prompt Injection
+
+<a id="promptattacks"></a>
+### Attacks
+- (Indirect Prompt Injection) Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection [[Paper](https://doi.org/10.1145/3605764.3623985)]
+- (HouYi) Prompt Injection attack against LLM-integrated Applications [[Paper](https://arxiv.org/abs/2306.05499)]
+<a id="promptdefenses"></a>
+### Defenses
+- (PromptArmor) PromptArmor Simple yet Effective Prompt Injection Defenses [[Paper](https://arxiv.org/abs/2507.15219)]
+- (Attention Tracker) Attention Tracker Detecting Prompt Injection Attacks in LLMs [[Paper](https://aclanthology.org/2025.findings-naacl.123/)]
+- (Formalizing Prompt Injection) Formalizing and Benchmarking Prompt Injection Attacks and Defenses [[Paper](https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei)]
 
 ---
 <a id="feedbackpoisoning"></a>
