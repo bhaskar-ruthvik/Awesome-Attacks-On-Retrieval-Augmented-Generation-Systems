@@ -10,8 +10,8 @@ The following repository contains a comprehensive list of research papers that c
   - Attacks
   - Defenses
 - [Vector/Embedding Poisoning](vectorpoisoning)
-  - [Attacks](vectorattacks)
-  - [Defenses](vectordefenses)
+  - [Attacks](#vectorattacks)
+  - [Defenses](#vectordefenses)
 - Prompt Injection
   - Attacks
   - Defenses
@@ -27,13 +27,14 @@ The following repository contains a comprehensive list of research papers that c
 ## Data Poisoning
 
 ---
-
+<a id="vectorpoisoning"></a>
 ## Vector/Embedding Poisoning [name="vectorpoisoning"]
-### Attacks [name="vectorattacks"]
+<a id="vectorattacks"></a>
+### Attacks 
 - (TrojanRAG) TrojanRAG: Retrieval-Augmented Generation Can Be Backdoor Driver in Large Language Models [[Paper](https://arxiv.org/abs/2405.13401)]
 - (PoisonedEye) PoisonedEye: Knowledge Poisoning Attack on Retrieval-Augmented Generation based Large Vision-Language Models [[Paper](https://openreview.net/forum?id=6SIymOqJlc)]
-
-### Defenses [name="vectordefenses"]
+<a id="vectordefenses"></a>
+### Defenses 
 - (TruthRAG) TrustRAG: Enhancing Robustness and Trustworthiness in Retrieval-Augmented Generation [[Paper](https://arxiv.org/abs/2501.00879)]
 - (Poisoning Defense in Knowledge Intensive Domains) On the Vulnerability of Applying Retrieval-Augmented Generation within Knowledge-Intensive Application Domains [[Paper](https://arxiv.org/abs/2409.17275)]
 ---
