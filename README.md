@@ -9,7 +9,7 @@ The following repository contains a comprehensive list of research papers that c
 - Data Poisoning
   - Attacks
   - Defenses
-- [Vector/Embedding Poisoning](vectorpoisoning)
+- [Vector/Embedding Poisoning](#vectorpoisoning)
   - [Attacks](#vectorattacks)
   - [Defenses](#vectordefenses)
 - Prompt Injection
@@ -28,7 +28,8 @@ The following repository contains a comprehensive list of research papers that c
 
 ---
 <a id="vectorpoisoning"></a>
-## Vector/Embedding Poisoning [name="vectorpoisoning"]
+## Vector/Embedding Poisoning
+
 <a id="vectorattacks"></a>
 ### Attacks 
 - (TrojanRAG) TrojanRAG: Retrieval-Augmented Generation Can Be Backdoor Driver in Large Language Models [[Paper](https://arxiv.org/abs/2405.13401)]
