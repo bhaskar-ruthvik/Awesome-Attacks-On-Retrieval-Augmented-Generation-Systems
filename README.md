@@ -10,9 +10,9 @@ _Fig: RAG Pipeline used to Distinguish Types of Attacks_
 ---
 ## Contents
 
-- Data Poisoning
-  - Attacks
-  - Defenses
+- [Data Poisoning](#datapoisoning)
+  - [Attacks](#datapoisoningattacks)
+  - [Defenses](#datapoisoningdefenses)
 - [Vector/Embedding Poisoning](#vectorpoisoning)
   - [Attacks](#vectorattacks)
   - [Defenses](#vectordefenses)
@@ -22,13 +22,22 @@ _Fig: RAG Pipeline used to Distinguish Types of Attacks_
 - [Feedback Poisoning](#feedbackpoisoning)
   - [Attacks](#feedbackattacks)
   - [Defenses](#feedbackdefenses)
-- Tool Abuse and Manipulation
-  - Attacks
-  - Defenses
+- [Tool Abuse and Manipulation](#toolabuse)
+  - [Attacks](#toolattacks)
  
 ---
 
+<a id="datapoisoning"></a>
 ## Data Poisoning
+
+<a id="datapoisoningattacks"></a>
+### Attacks
+- (AgentPoison) AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases [[Paper](https://arxiv.org/abs/2407.12784)]
+- (Near-constant Poison Samples) Poisoning Attacks on LLMs Require a Near-constant Number of Poison Samples [[Paper](https://arxiv.org/abs/2510.07192)]
+<a id="datapoisoningdefenses"></a>
+### Defenses
+- (RAGuard) Secure Retrieval-Augmented Generation against Poisoning Attacks [[Paper](https://arxiv.org/abs/2510.25025)]
+- (Activation Gradient Detection) Activation Gradient based Poisoned Sample Detection Against Backdoor Attacks [[Paper](https://arxiv.org/abs/2312.06230)]
 
 ---
 <a id="vectorpoisoning"></a>
@@ -58,3 +67,15 @@ _Fig: RAG Pipeline used to Distinguish Types of Attacks_
 <a id="feedbackdefenses"></a>
 ### Defenses
 - Human Feedback Attack on Online RLHF: Attack and Robust Defense [[Paper](https://ieeexplore.ieee.org/abstract/document/11153038?casa_token=JTLnFehx7ucAAAAA:XI4tpp8EHmWMS0EVWx_9GY2FEnavQYNpI34IAjAZ3-TgJvAzb3Dv3vjQ2Ts1JVIE-EZbDn7Esg)]
+
+---
+
+<a id="toolabuse"></a>
+## Tool Abuse and Manipulation
+
+<a id="toolattacks"></a>
+### Attacks
+- (ToolCommander) From Allies to Adversaries: Manipulating LLM Tool-Calling through Adversarial Injection [[Paper](https://arxiv.org/abs/2412.10198)]
+- (Attractive Metadata Attack) Attractive Metadata Attack: Inducing LLM Agents to Invoke Malicious Tools [[Paper](https://arxiv.org/abs/2508.02110)]
+- (ToolTweak) ToolTweak: An Attack on Tool Selection in LLM-based Agents [[Paper](https://arxiv.org/abs/2510.02554)]
+
