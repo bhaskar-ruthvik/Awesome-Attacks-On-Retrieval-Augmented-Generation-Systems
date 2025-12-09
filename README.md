@@ -1,7 +1,11 @@
 # Awesome-Attacks-On-Retrieval-Augmented-Generation-Systems
 ___
+This survey is a culmination of the work done by **Bhaskar Ruthvik Bikkina, Pranav Handa, Jaelen Dixon and Kyle Kim**.
 
-The following repository contains a comprehensive list of research papers that cover different types of attacks on Retrieval Augmented Generation systems split into 6 broad categories. We also try to include defenses against such type of attacks in hopes of shedding light on some work done towards making Robust RAGs. The attacks cover both red-teaming and adversarial attacks.
+The following repository contains a comprehensive list of research papers that cover different types of attacks on Retrieval Augmented Generation systems split into 5 broad categories. We also try to include defenses against such type of attacks in hopes of shedding light on some work done towards making Robust RAGs. We use the diagram below to come up with our taxonomy.
+
+![RAG Pipeline Example](https://i.ibb.co/h6BLmbP/Untitled-design.png)
+_Fig: RAG Pipeline used to Distinguish Types of Attacks_
 
 ---
 ## Contents
