@@ -19,9 +19,9 @@ _Fig: RAG Pipeline used to Distinguish Types of Attacks_
 - Prompt Injection
   - Attacks
   - Defenses
-- Feedback Poisoning
-  - Attacks
-  - Defenses
+- [Feedback Poisoning](#feedbackpoisoning)
+  - [Attacks](#feedbackattacks)
+  - [Defenses](#feedbackdefenses)
 - Tool Abuse and Manipulation
   - Attacks
   - Defenses
@@ -44,3 +44,17 @@ _Fig: RAG Pipeline used to Distinguish Types of Attacks_
 - (Poisoning Defense in Knowledge Intensive Domains) On the Vulnerability of Applying Retrieval-Augmented Generation within Knowledge-Intensive Application Domains [[Paper](https://arxiv.org/abs/2409.17275)]
 ---
 
+## Prompt Injection
+
+---
+<a id="feedbackpoisoning"></a>
+## Feedback Poisoning
+
+<a id="feedbackattacks"></a>
+### Attacks
+- RLHFPoison: Reward Poisoning Attack for Reinforcement Learning with Human Feedback in Large Language Models [[Paper](https://arxiv.org/abs/2311.09641)]
+- Universal Jailbreak Backdoors From Poisoned Human Feedback [[Paper](https://arxiv.org/abs/2311.14455)]
+- Preference Poisoning Attacks on Reward Model Learning [[Paper](https://ieeexplore.ieee.org/document/11023453)]
+<a id="feedbackdefenses"></a>
+### Defenses
+- Human Feedback Attack on Online RLHF: Attack and Robust Defense [[Paper](https://ieeexplore.ieee.org/abstract/document/11153038?casa_token=JTLnFehx7ucAAAAA:XI4tpp8EHmWMS0EVWx_9GY2FEnavQYNpI34IAjAZ3-TgJvAzb3Dv3vjQ2Ts1JVIE-EZbDn7Esg)]
