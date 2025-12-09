@@ -89,4 +89,5 @@ _Fig: RAG Pipeline used to Distinguish Types of Attacks_
 - (ToolCommander) From Allies to Adversaries: Manipulating LLM Tool-Calling through Adversarial Injection [[Paper](https://arxiv.org/abs/2412.10198)]
 - (Attractive Metadata Attack) Attractive Metadata Attack: Inducing LLM Agents to Invoke Malicious Tools [[Paper](https://arxiv.org/abs/2508.02110)]
 - (ToolTweak) ToolTweak: An Attack on Tool Selection in LLM-based Agents [[Paper](https://arxiv.org/abs/2510.02554)]
+- Breaking Agents: Compromising Autonomous LLM Agents Through Malfunction Amplification [[Paper](https://aclanthology.org/2025.emnlp-main.1771/)]
 
